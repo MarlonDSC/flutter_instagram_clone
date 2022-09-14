@@ -63,7 +63,9 @@ class MyApp extends StatelessWidget {
                 );
               } else if (snapshot.hasError) {
                 return Center(
-                  child: Text('${snapshot.error}'),
+                  child: Text(
+                    '${snapshot.error}',
+                  ),
                 );
               }
             }
